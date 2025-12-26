@@ -31,7 +31,10 @@ The objective of this task is to predict whether a bank customer will subscribe 
 
 ## Results and Findings
 - Logistic Regression provided a good baseline performance for predicting term deposit subscriptions.
-- Random Forest performed better than Logistic Regression in terms of F1-score and overall accuracy.
+-Random Forest outperformed Logistic Regression with a higher F1-score and better overall prediction performance. The model effectively   identified customers more likely to subscribe to a term deposit. Key factors influencing customer decisions included contact duration and previous campaign outcomes.
+
 - The confusion matrix showed that the Random Forest model reduced false negatives, making it more effective for identifying potential subscribers.
 - Important factors influencing subscription included contact duration, previous campaign outcome, and customer balance.
 - Overall, Random Forest was selected as the best-performing model for this task.
+## Final Conclusion and Insights
+The Random Forest model performed best for predicting term deposit subscriptions. The analysis showed that customer interaction duration and previous campaign success strongly influence subscription decisions. This model can help banks improve targeted marketing strategies.
